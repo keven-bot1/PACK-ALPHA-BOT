@@ -1,0 +1,19 @@
+{
+  "name": "pack-alpha-bot",
+  "version": "3.7.0",
+  "description": "PACK ALPHA - BOT WhatsApp Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.18",
+    "node-cache": "^5.1.2",
+    "pino": "^8.21.0",
+    "sharp": "^0.33.4"
+  }
+}
